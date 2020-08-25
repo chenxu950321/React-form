@@ -1,0 +1,70 @@
+[v-cloak] {
+	display: none;
+}
+
+table {
+	width: 100%;
+	/* margin-bottom: 24px; */
+	/*合并边框模型*/
+	border-collapse: collapse;
+	border-spacing: 0;
+	/*在空单元格周围绘制边框*/
+	empty-cells: show;
+	border: 1px solid #e9e9e9;
+}
+
+table th {
+	font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	background: #CAE8EA;
+	color: #5c6b77;
+	/*设置文本粗细*/
+	font-weight: 600;
+	/*段落中的文本不进行换行*/
+	white-space: nowrap;
+	border-top: 1px solid #C1DAD7;
+}
+
+table td,
+table th {
+	padding: 8px 16px;
+	text-align: left;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+}
+
+table th a {
+	/*不独占一行的块级元素*/
+	display: inline-block;
+	margin: 0 4px;
+	cursor: pointer;
+}
+
+table th a.on {
+	color: #3399ff;
+}
+
+table th a:hover {
+	color: #3399ff;
+}
+
+.mytable,
+.tablemange {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.mytable {
+	margin-bottom: 24px;
+}
+
+.pagesize {
+	list-style: none;
+	float: right;
+}
+
+.pagesize li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	margin: 0px 3px;
+}
